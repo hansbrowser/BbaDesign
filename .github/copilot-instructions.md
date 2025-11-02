@@ -15,6 +15,12 @@
 - **Icon styles available**: solid, regular, light, thin, duotone, brands, sharp variants.
 - **Avoid inline SVG**: Prefer Font Awesome classes over custom SVG icons for consistency.
 
+## Component Loading
+- **Dynamic components**: Use `data-component` attribute to load HTML components dynamically.
+- **Component syntax**: `<div data-component="components/filename.html"></div>` automatically loads the specified HTML file.
+- **Automatic loading**: The `shared.js` file includes a `loadComponents()` function that runs on page load.
+- **Component organization**: Store reusable components in the `components/` directory.
+
 ## Best Practices
 - **Semantic HTML**: Use appropriate HTML5 semantic elements (`<header>`, `<nav>`, `<main>`, `<footer>`, `<article>`, `<section>`).
 - **Accessibility**: Include proper ARIA labels, alt text for images, and semantic markup for screen readers.
