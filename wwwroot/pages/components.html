@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bba">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaisyUI Components - BBA Design</title>
+    <link rel="stylesheet" href="../app.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <div data-component="../components/header.html"></div>
+
+    <!-- Main Content -->
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="hero min-h-64 bg-gradient-to-r from-primary to-secondary">
+            <div class="hero-content text-center text-primary-content">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl font-bold mb-4">
+                        <i class="fa-solid fa-cube"></i>
+                        DaisyUI Components
+                    </h1>
+                    <p class="text-lg">
+                        A showcase of beautiful, accessible UI components built with DaisyUI
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buttons Section -->
+        <section class="py-16 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-hand-pointer text-primary"></i>
+                    Buttons
+                </h2>
+                <div class="flex flex-wrap gap-4 mb-8">
+                    <button class="btn">Default</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-accent">Accent</button>
+                    <button class="btn btn-info">Info</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-error">Error</button>
+                </div>
+                <div class="flex flex-wrap gap-4 mb-8">
+                    <button class="btn btn-outline">Outline</button>
+                    <button class="btn btn-outline btn-primary">Primary</button>
+                    <button class="btn btn-ghost">Ghost</button>
+                    <button class="btn btn-link">Link</button>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <button class="btn btn-xs">Tiny</button>
+                    <button class="btn btn-sm">Small</button>
+                    <button class="btn">Normal</button>
+                    <button class="btn btn-lg">Large</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Cards Section -->
+        <section class="py-16 px-4 bg-base-200">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-id-card text-secondary"></i>
+                    Cards
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure class="h-48 bg-gradient-to-br from-primary to-secondary"></figure>
+                        <div class="card-body">
+                            <h3 class="card-title">Card Title</h3>
+                            <p>This is a basic card with an image placeholder and some content.</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Card with Badge
+                                <div class="badge badge-secondary">NEW</div>
+                            </h3>
+                            <p>Cards can include badges to highlight important information.</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-sm">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl glass">
+                        <div class="card-body">
+                            <h3 class="card-title">Glass Effect</h3>
+                            <p>This card has a glassmorphism effect for a modern look.</p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-accent">Action</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Alerts & Badges Section -->
+        <section class="py-16 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-circle-info text-info"></i>
+                    Alerts & Badges
+                </h2>
+                <div class="space-y-4 mb-8">
+                    <div class="alert alert-info">
+                        <i class="fa-solid fa-info-circle"></i>
+                        <span>Info alert - This is informational content</span>
+                    </div>
+                    <div class="alert alert-success">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Success alert - Your action was successful</span>
+                    </div>
+                    <div class="alert alert-warning">
+                        <i class="fa-solid fa-exclamation-triangle"></i>
+                        <span>Warning alert - Please be careful</span>
+                    </div>
+                    <div class="alert alert-error">
+                        <i class="fa-solid fa-times-circle"></i>
+                        <span>Error alert - Something went wrong</span>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <div class="badge">Default</div>
+                    <div class="badge badge-primary">Primary</div>
+                    <div class="badge badge-secondary">Secondary</div>
+                    <div class="badge badge-accent">Accent</div>
+                    <div class="badge badge-ghost">Ghost</div>
+                    <div class="badge badge-info">Info</div>
+                    <div class="badge badge-success">Success</div>
+                    <div class="badge badge-warning">Warning</div>
+                    <div class="badge badge-error">Error</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Form Components Section -->
+        <section class="py-16 px-4 bg-base-200">
+            <div class="container mx-auto max-w-2xl">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-keyboard text-accent"></i>
+                    Form Components
+                </h2>
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="card-body space-y-4">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Email</span>
+                            </label>
+                            <input type="email" placeholder="your@email.com" class="input input-bordered" />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Password</span>
+                            </label>
+                            <input type="password" placeholder="Enter password" class="input input-bordered" />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Message</span>
+                            </label>
+                            <textarea class="textarea textarea-bordered" placeholder="Your message"></textarea>
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Select Option</span>
+                            </label>
+                            <select class="select select-bordered">
+                                <option disabled selected>Pick one</option>
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
+                        </div>
+                        <div class="form-control">
+                            <label class="label cursor-pointer justify-start gap-4">
+                                <input type="checkbox" class="checkbox checkbox-primary" />
+                                <span class="label-text">Remember me</span>
+                            </label>
+                        </div>
+                        <div class="form-control">
+                            <label class="label cursor-pointer justify-start gap-4">
+                                <input type="radio" name="radio" class="radio radio-primary" checked />
+                                <span class="label-text">Radio option 1</span>
+                            </label>
+                        </div>
+                        <div class="form-control">
+                            <label class="label cursor-pointer justify-start gap-4">
+                                <input type="radio" name="radio" class="radio radio-primary" />
+                                <span class="label-text">Radio option 2</span>
+                            </label>
+                        </div>
+                        <div class="form-control">
+                            <label class="label cursor-pointer justify-start gap-4">
+                                <input type="checkbox" class="toggle toggle-primary" checked />
+                                <span class="label-text">Toggle switch</span>
+                            </label>
+                        </div>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Loading & Progress Section -->
+        <section class="py-16 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-spinner text-warning"></i>
+                    Loading & Progress
+                </h2>
+                <div class="flex flex-wrap gap-6 items-center mb-8">
+                    <span class="loading loading-spinner loading-xs"></span>
+                    <span class="loading loading-spinner loading-sm"></span>
+                    <span class="loading loading-spinner loading-md"></span>
+                    <span class="loading loading-spinner loading-lg"></span>
+                </div>
+                <div class="flex flex-wrap gap-6 items-center mb-8">
+                    <span class="loading loading-dots loading-xs"></span>
+                    <span class="loading loading-dots loading-sm"></span>
+                    <span class="loading loading-dots loading-md"></span>
+                    <span class="loading loading-dots loading-lg"></span>
+                </div>
+                <div class="space-y-4">
+                    <progress class="progress progress-primary w-full" value="0" max="100"></progress>
+                    <progress class="progress progress-secondary w-full" value="25" max="100"></progress>
+                    <progress class="progress progress-accent w-full" value="50" max="100"></progress>
+                    <progress class="progress progress-success w-full" value="75" max="100"></progress>
+                    <progress class="progress progress-error w-full" value="100" max="100"></progress>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Stats Section -->
+        <section class="py-16 px-4 bg-base-200">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-chart-bar text-success"></i>
+                    Stats
+                </h2>
+                <div class="stats shadow w-full">
+                    <div class="stat">
+                        <div class="stat-figure text-primary">
+                            <i class="fa-solid fa-users text-4xl"></i>
+                        </div>
+                        <div class="stat-title">Total Users</div>
+                        <div class="stat-value text-primary">31K</div>
+                        <div class="stat-desc">21% more than last month</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-figure text-secondary">
+                            <i class="fa-solid fa-download text-4xl"></i>
+                        </div>
+                        <div class="stat-title">Downloads</div>
+                        <div class="stat-value text-secondary">1.2M</div>
+                        <div class="stat-desc">14% increase</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-figure text-accent">
+                            <i class="fa-solid fa-heart text-4xl"></i>
+                        </div>
+                        <div class="stat-title">Likes</div>
+                        <div class="stat-value text-accent">86%</div>
+                        <div class="stat-desc">User satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Breadcrumbs & Pagination Section -->
+        <section class="py-16 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-sitemap text-primary"></i>
+                    Navigation Components
+                </h2>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Breadcrumbs</h3>
+                        <div class="breadcrumbs text-sm">
+                            <ul>
+                                <li><a><i class="fa-solid fa-home"></i> Home</a></li>
+                                <li><a>Components</a></li>
+                                <li>Breadcrumbs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Pagination</h3>
+                        <div class="join">
+                            <button class="join-item btn">«</button>
+                            <button class="join-item btn">1</button>
+                            <button class="join-item btn btn-active">2</button>
+                            <button class="join-item btn">3</button>
+                            <button class="join-item btn">4</button>
+                            <button class="join-item btn">»</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Steps</h3>
+                        <ul class="steps">
+                            <li class="step step-primary">Register</li>
+                            <li class="step step-primary">Choose plan</li>
+                            <li class="step">Purchase</li>
+                            <li class="step">Receive Product</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Tabs Section -->
+        <section class="py-16 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-folder-open text-warning"></i>
+                    Tabs
+                </h2>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Basic Tabs</h3>
+                        <div role="tablist" class="tabs tabs-lifted">
+                            <input type="radio" name="basic_tabs" role="tab" class="tab" aria-label="Tab 1" checked />
+                            <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+                                <h4 class="font-bold mb-2">First Tab Content</h4>
+                                <p>This is the content for the first tab. You can put any content here.</p>
+                            </div>
+
+                            <input type="radio" name="basic_tabs" role="tab" class="tab" aria-label="Tab 2" />
+                            <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+                                <h4 class="font-bold mb-2">Second Tab Content</h4>
+                                <p>This is the content for the second tab with different information.</p>
+                            </div>
+
+                            <input type="radio" name="basic_tabs" role="tab" class="tab" aria-label="Tab 3" />
+                            <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+                                <h4 class="font-bold mb-2">Third Tab Content</h4>
+                                <p>And here's the content for the third tab!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Bordered Tabs</h3>
+                        <div role="tablist" class="tabs tabs-bordered">
+                            <input type="radio" name="bordered_tabs" role="tab" class="tab" aria-label="Home" checked />
+                            <div role="tabpanel" class="tab-content p-6">
+                                <i class="fa-solid fa-home text-2xl text-primary mb-2"></i>
+                                <p>Welcome to the home tab!</p>
+                            </div>
+
+                            <input type="radio" name="bordered_tabs" role="tab" class="tab" aria-label="Profile" />
+                            <div role="tabpanel" class="tab-content p-6">
+                                <i class="fa-solid fa-user text-2xl text-secondary mb-2"></i>
+                                <p>User profile information goes here.</p>
+                            </div>
+
+                            <input type="radio" name="bordered_tabs" role="tab" class="tab" aria-label="Settings" />
+                            <div role="tabpanel" class="tab-content p-6">
+                                <i class="fa-solid fa-gear text-2xl text-accent mb-2"></i>
+                                <p>Configure your settings here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Boxed Tabs</h3>
+                        <div role="tablist" class="tabs tabs-boxed">
+                            <a role="tab" class="tab tab-active">Featured</a>
+                            <a role="tab" class="tab">Popular</a>
+                            <a role="tab" class="tab">Recent</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Modal & Tooltip Section -->
+        <section class="py-16 px-4 bg-base-200">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8">
+                    <i class="fa-solid fa-window-restore text-secondary"></i>
+                    Modals & Overlays
+                </h2>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Modals</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <!-- Modal 1 - Basic -->
+                            <button class="btn btn-primary" onclick="document.getElementById('modal_basic').showModal()">
+                                <i class="fa-solid fa-square"></i>
+                                Basic Modal
+                            </button>
+                            <dialog id="modal_basic" class="modal">
+                                <div class="modal-box">
+                                    <h3 class="font-bold text-lg mb-4">
+                                        <i class="fa-solid fa-info-circle text-primary"></i>
+                                        Basic Modal
+                                    </h3>
+                                    <p class="py-4">This is a basic modal dialog. Click outside or press ESC to close.</p>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <button class="btn">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <form method="dialog" class="modal-backdrop">
+                                    <button>close</button>
+                                </form>
+                            </dialog>
+
+                            <!-- Modal 2 - With Actions -->
+                            <button class="btn btn-secondary" onclick="document.getElementById('modal_actions').showModal()">
+                                <i class="fa-solid fa-check-square"></i>
+                                Modal with Actions
+                            </button>
+                            <dialog id="modal_actions" class="modal">
+                                <div class="modal-box">
+                                    <h3 class="font-bold text-lg mb-4">
+                                        <i class="fa-solid fa-exclamation-triangle text-warning"></i>
+                                        Confirm Action
+                                    </h3>
+                                    <p class="py-4">Are you sure you want to proceed with this action? This cannot be undone.</p>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <button class="btn btn-ghost">Cancel</button>
+                                            <button class="btn btn-primary">Confirm</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <form method="dialog" class="modal-backdrop">
+                                    <button>close</button>
+                                </form>
+                            </dialog>
+
+                            <!-- Modal 3 - Large Content -->
+                            <button class="btn btn-accent" onclick="document.getElementById('modal_large').showModal()">
+                                <i class="fa-solid fa-window-maximize"></i>
+                                Large Modal
+                            </button>
+                            <dialog id="modal_large" class="modal">
+                                <div class="modal-box max-w-5xl">
+                                    <h3 class="font-bold text-lg mb-4">
+                                        <i class="fa-solid fa-expand text-accent"></i>
+                                        Large Modal with More Content
+                                    </h3>
+                                    <div class="py-4 space-y-4">
+                                        <p>This is a larger modal that can contain more complex content.</p>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div class="card bg-base-200">
+                                                <div class="card-body">
+                                                    <h4 class="card-title text-sm">Feature 1</h4>
+                                                    <p class="text-sm">Description of feature one.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card bg-base-200">
+                                                <div class="card-body">
+                                                    <h4 class="card-title text-sm">Feature 2</h4>
+                                                    <p class="text-sm">Description of feature two.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>You can include forms, images, or any other content in modals.</p>
+                                    </div>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <button class="btn">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <form method="dialog" class="modal-backdrop">
+                                    <button>close</button>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Tooltips</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="tooltip" data-tip="Top tooltip">
+                                <button class="btn">Top</button>
+                            </div>
+                            <div class="tooltip tooltip-right" data-tip="Right tooltip">
+                                <button class="btn">Right</button>
+                            </div>
+                            <div class="tooltip tooltip-bottom" data-tip="Bottom tooltip">
+                                <button class="btn">Bottom</button>
+                            </div>
+                            <div class="tooltip tooltip-left" data-tip="Left tooltip">
+                                <button class="btn">Left</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div data-component="../components/footer.html"></div>
+
+    <script src="../shared.js"></script>
+</body>
+</html>
