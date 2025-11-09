@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="nl" data-theme="bba">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unifeed Resultaten - 2BA</title>
+    <link rel="stylesheet" href="../app.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+</head>
+<body class="flex min-h-screen flex-col bg-base-100">
+    <div data-component="../components/unifeed-header.html"></div>
+
+    <main class="flex-1">
+        <section class="border-b border-base-300 bg-base-100">
+            <div class="container mx-auto px-4 py-4">
+                <p class="text-sm text-base-content/70">
+                    Zoeken naar
+                    <span class="font-semibold text-base-content">"GROHE GROHE Cubeo"</span>
+                    leverde <span class="font-semibold text-base-content">39</span> artikelen
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-base-100 py-6">
+            <div class="container mx-auto flex flex-col gap-6 px-4 lg:flex-row">
+                <aside class="w-full space-y-6 lg:w-72">
+                    <div class="rounded-lg border border-base-300 bg-base-100">
+                        <h2 class="border-b border-base-300 px-4 py-3 text-sm font-semibold uppercase tracking-wide text-base-content/80">
+                            Filter
+                        </h2>
+                        <div class="space-y-2 px-4 py-3">
+                            <label class="input input-bordered input-sm flex items-center gap-2">
+                                <i class="fa-solid fa-magnifying-glass text-base-content/60"></i>
+                                <input type="search" placeholder="filter op merk" class="grow border-none bg-transparent focus:outline-none">
+                            </label>
+                        </div>
+                        <div class="divide-y divide-base-200">
+                            <details open>
+                                <summary class="cursor-pointer px-4 py-3 text-sm font-medium text-base-content">
+                                    Merk
+                                </summary>
+                                <div class="space-y-2 px-4 pb-4 text-sm text-base-content/80">
+                                    <label class="label cursor-pointer justify-start gap-3 py-1">
+                                        <input type="checkbox" class="checkbox checkbox-sm">
+                                        <span>GROHE</span>
+                                    </label>
+                                    <label class="label cursor-pointer justify-start gap-3 py-1">
+                                        <input type="checkbox" class="checkbox checkbox-sm">
+                                        <span>Cubeo</span>
+                                    </label>
+                                    <label class="label cursor-pointer justify-start gap-3 py-1">
+                                        <input type="checkbox" class="checkbox checkbox-sm">
+                                        <span>221</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details open>
+                                <summary class="cursor-pointer px-4 py-3 text-sm font-medium text-base-content">
+                                    Serie
+                                </summary>
+                                <div class="space-y-2 px-4 pb-4 text-sm text-base-content/80">
+                                    <label class="label cursor-pointer justify-start gap-3 py-1">
+                                        <input type="checkbox" class="checkbox checkbox-sm">
+                                        <span>221</span>
+                                    </label>
+                                    <label class="label cursor-pointer justify-start gap-3 py-1">
+                                        <input type="checkbox" class="checkbox checkbox-sm">
+                                        <span>222</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details open>
+                                <summary class="cursor-pointer px-4 py-3 text-sm font-medium text-base-content">
+                                    Typen
+                                </summary>
+                                <div class="space-y-2 px-4 pb-4 text-sm text-base-content/80">
+                                    <label class="label cursor-pointer justify-start gap-3 py-1">
+                                        <input type="checkbox" class="checkbox checkbox-sm">
+                                        <span>EPD/PEP</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details>
+                                <summary class="cursor-pointer px-4 py-3 text-sm font-medium text-base-content">
+                                    Kenmerk
+                                </summary>
+                                <div class="space-y-2 px-4 pb-4 text-sm text-base-content/80">
+                                    <span class="text-xs">Geen kenmerken geselecteerd</span>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </aside>
+
+                <section class="flex-1 space-y-4">
+                    <div role="tablist" class="tabs tabs-bordered w-full max-w-md">
+                        <button role="tab" class="tab tab-active">Producten</button>
+                        <button role="tab" class="tab">Klassen</button>
+                    </div>
+
+                    <div class="space-y-4">
+                        <article class="grid gap-4 rounded-lg border border-base-300 bg-base-100 p-4 sm:grid-cols-[120px,1fr,auto]">
+                            <div class="aspect-square w-full rounded bg-base-200"></div>
+                            <div class="space-y-2 text-sm">
+                                <a href="#" class="font-semibold text-[#005ab2] hover:underline">
+                                    GROHE GROHE Cubeo Bidetmengkraan S-Size (1018102430)
+                                </a>
+                                <ul class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-base-content/70">
+                                    <li><span class="font-semibold text-base-content/80">Type greep:</span> Eengreeps</li>
+                                    <li><span class="font-semibold text-base-content/80">Incl. grepen:</span> Ja</li>
+                                    <li><span class="font-semibold text-base-content/80">Met waste-inrichting:</span> Ja</li>
+                                    <li><span class="font-semibold text-base-content/80">Type temperatuurregeling:</span> Handbediend</li>
+                                    <li><span class="font-semibold text-base-content/80">Oppervlaktebescherming:</span> Gecoat</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col items-end justify-between text-sm text-base-content/70">
+                                <a href="#" class="link link-hover text-sm text-base-content/70">15 leverancier(s)</a>
+                            </div>
+                        </article>
+
+                        <article class="grid gap-4 rounded-lg border border-base-300 bg-base-100 p-4 sm:grid-cols-[120px,1fr,auto]">
+                            <div class="aspect-square w-full rounded bg-base-200"></div>
+                            <div class="space-y-2 text-sm">
+                                <a href="#" class="font-semibold text-[#005ab2] hover:underline">
+                                    GROHE GROHE Cubeo Wastafelmengkraan M-Size (1018102431)
+                                </a>
+                                <ul class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-base-content/70">
+                                    <li><span class="font-semibold text-base-content/80">Type greep:</span> Eengreeps</li>
+                                    <li><span class="font-semibold text-base-content/80">Incl. grepen:</span> Ja</li>
+                                    <li><span class="font-semibold text-base-content/80">Met waste-inrichting:</span> Ja</li>
+                                    <li><span class="font-semibold text-base-content/80">Type temperatuurregeling:</span> Handbediend</li>
+                                    <li><span class="font-semibold text-base-content/80">Oppervlaktebescherming:</span> Gecoat</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col items-end justify-between text-sm text-base-content/70">
+                                <a href="#" class="link link-hover text-sm text-base-content/70">15 leverancier(s)</a>
+                            </div>
+                        </article>
+
+                        <article class="grid gap-4 rounded-lg border border-base-300 bg-base-100 p-4 sm:grid-cols-[120px,1fr,auto]">
+                            <div class="aspect-square w-full rounded bg-base-200"></div>
+                            <div class="space-y-2 text-sm">
+                                <a href="#" class="font-semibold text-[#005ab2] hover:underline">
+                                    GROHE GROHE Cubeo Douchemengkraan (1018102432)
+                                </a>
+                                <ul class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-base-content/70">
+                                    <li><span class="font-semibold text-base-content/80">Type greep:</span> Eengreeps</li>
+                                    <li><span class="font-semibold text-base-content/80">Incl. grepen:</span> Ja</li>
+                                    <li><span class="font-semibold text-base-content/80">Met waste-inrichting:</span> Nee</li>
+                                    <li><span class="font-semibold text-base-content/80">Type temperatuurregeling:</span> Handbediend</li>
+                                    <li><span class="font-semibold text-base-content/80">Oppervlaktebescherming:</span> Gecoat</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col items-end justify-between text-sm text-base-content/70">
+                                <a href="#" class="link link-hover text-sm text-base-content/70">15 leverancier(s)</a>
+                            </div>
+                        </article>
+
+                        <article class="grid gap-4 rounded-lg border border-base-300 bg-base-100 p-4 sm:grid-cols-[120px,1fr,auto]">
+                            <div class="aspect-square w-full rounded bg-base-200"></div>
+                            <div class="space-y-2 text-sm">
+                                <a href="#" class="font-semibold text-[#005ab2] hover:underline">
+                                    GROHE GROHE Cubeo Keukenmengkraan (1018102433)
+                                </a>
+                                <ul class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-base-content/70">
+                                    <li><span class="font-semibold text-base-content/80">Type greep:</span> Eengreeps</li>
+                                    <li><span class="font-semibold text-base-content/80">Incl. grepen:</span> Ja</li>
+                                    <li><span class="font-semibold text-base-content/80">Met waste-inrichting:</span> Nee</li>
+                                    <li><span class="font-semibold text-base-content/80">Type temperatuurregeling:</span> Handbediend</li>
+                                    <li><span class="font-semibold text-base-content/80">Oppervlaktebescherming:</span> Gecoat</li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col items-end justify-between text-sm text-base-content/70">
+                                <a href="#" class="link link-hover text-sm text-base-content/70">15 leverancier(s)</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <div data-component="../components/unifeed-footer.html"></div>
+
+    <script src="../shared.js"></script>
+</body>
+</html>
